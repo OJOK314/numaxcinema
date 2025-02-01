@@ -1,20 +1,122 @@
-
-.color-purpl{
-color:orangered;
-cursor: pointer;
-line-height: 25px;
-
+* {
+  margin:0 ;
+  padding: 0;
 }
 
-#color-purpl{
-    color:purple;
-    font-size: 50px;
-
-}
-h1[title]{
-    color: red;
-    font-size: 50px; 
+.color-purpl {
+  color: orangered;
 }
 
+#color-purpl {
+  color: yellow;
+  font-size: 50px;
+}
 
+body {
+  background-color: #500073;
+  font-family: "Open Sans", serif;
+  font-weight: bolder;
+}
 
+#title-element {
+  text-shadow: 2px 2px white;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  line-height: 40px;
+}
+
+header {
+  padding: 30px;
+  display: flex;
+  border: 20px solid white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav {
+  flex: 0 100%;
+}
+
+h1 {
+  background-color: green;
+  box-shadow: 20px 20px 20px;
+}
+
+#color-gray {
+  cursor: pointer;
+  background-color: blue;
+  border: 50px dashed yellowgreen;
+  border-radius: 8000px;
+  border-color: firebrick;
+}
+
+.image1 {
+  border-radius: 100%;
+}
+
+.image-container1 {
+  padding: 20px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.image-container2 {
+  padding: 20px;
+  background-color: green;
+  border-radius: 10px;
+}
+
+.image-container3 {
+  padding: 20px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-title {
+  color: white;
+  text-align: center;
+}
+
+.paragraph {
+  color: white;
+  text-align: center;
+}
+
+.button {
+  align-self: center;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.color-black{
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
